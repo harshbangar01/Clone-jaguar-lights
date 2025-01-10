@@ -1,0 +1,273 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f8f9fa;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, white, white);
+    color: black;
+    padding: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+nav ul li select {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    color: #333;
+    outline: none;
+}
+
+nav ul li i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#logo img {
+    max-height: 50px;
+}
+
+/* Hero Section */
+.imagemain {
+    height: 300px;
+    background: url(/jaguar\ front.jpeg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    font-size: 24px;
+}
+
+/* Details Section */
+.details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.details div {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px;
+}
+
+.details div:hover {
+    transform: scale(1.4);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: black;
+    margin: 20px 0;
+    text-align: center;
+}
+
+pre, p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+pre {
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+/* Content Section */
+.content div {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Footer */
+.caption {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.caption pre {
+    color: #fff;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.caption i {
+    margin: 0 10px;
+}
+
+body {
+    background-color: white;
+}
+#img1 {
+    background-image: url(https://www.jaquar.com/images/thumbs/0047389_architectural-facade-lighting_400.jpeg);
+    background-size: cover;
+    color: white;
+}
+#img2 {
+    background-image: url(https://www.jaquar.com/images/thumbs/0048763_commercial-outdoor-lighting_400.jpeg);
+    background-size: cover;
+    color: white;
+}
+#img3 { background-image: url(https://www.jaquar.com/images/thumbs/0049375_commercial-indoor-lighting_400.jpeg);
+    background-size: cover;
+    color: white;
+}
+#img4 { background-image: url(https://www.jaquar.com/images/thumbs/0049376_decorative-lighting_400.jpeg);
+    background-size: cover;
+    color: white;
+}
+#img5 { background-image: url(https://www.jaquar.com/images/thumbs/0042052_consumer-lighting_400.jpeg);
+    background-size: cover;
+    color: white;
+}
+#img6 { background-image: url(https://www.jaquar.com/images/thumbs/0042053_smart-lighting_400.jpeg);
+    background-size: cover;
+    color: white;
+}
+#img7 { background-image: url(https://www.jaquar.com/images/thumbs/0049057_switches_400.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+#container {
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: 10px;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #f8f9fa;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a:hover {
+    color: #0d6efd;
+}
+
+.footer-section a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-section a:hover {
+    color: #0d6efd;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+}
