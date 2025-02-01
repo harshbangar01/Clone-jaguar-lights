@@ -69,7 +69,7 @@ nav ul li i {
 /* Hero Section */
 .imagemain {
     height: 300px;
-    background: url(https://thumbs.dreamstime.com/b/bamboo-covered-hanging-lamps-room-cafe-hotel-home-lighting-decor-332909288.jpg);
+    /*background: url(https://thumbs.dreamstime.com/b/bamboo-covered-hanging-lamps-room-cafe-hotel-home-lighting-decor-332909288.jpg);*/
     display: flex;
     align-items: center;
     justify-content: center;
